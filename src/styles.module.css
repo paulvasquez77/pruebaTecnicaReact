@@ -1,0 +1,50 @@
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.head {
+  font-size: 1.5rem;
+  background-color: black;
+}
+
+.body {
+  align-content: center;
+  height: 4rem;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.button:hover {
+  border-color: #646cff;
+}
+
+.botonEstados {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.childen tbody tr:nth-child(even) {
+  background-color: rgb(51, 51, 51);
+}
+
+.childen tbody tr:nth-child(odd) {
+  background-color: rgb(68, 68, 68);
+}
